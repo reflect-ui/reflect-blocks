@@ -20,7 +20,7 @@ const Iframe = styled.iframe<{
 }>`
   border: none;
   width: ${(p) => p.width ?? __DEFAULT_EMBED_SIZE.width};
-  width: ${(p) => p.height ?? __DEFAULT_EMBED_SIZE.heigh};
+  height: ${(p) => p.height ?? __DEFAULT_EMBED_SIZE.heigh};
 `;
 
 /**
