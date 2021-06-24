@@ -1,6 +1,7 @@
 {
     "name": "@reflect-blocks/<package-name>",
     "version": "0.0.0",
+    "main": "dist/index.js",
     "description": "<package-name>, part of reflect-ui ecosystem",
     "scripts": {
         "prepack": "tsc"

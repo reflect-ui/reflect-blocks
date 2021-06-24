@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-import { buildFigmaEmbedUrl, FigmaEmbedInput } from "@design-sdk/figma-url";
+import { embed, FigmaEmbedInput } from "@design-sdk/figma-url";
 
 interface FigmaEmbedProps {
   src: string | FigmaEmbedInput;
@@ -9,12 +9,11 @@ interface FigmaEmbedProps {
 }
 
 export function FigmaEmbed(props: FigmaEmbedProps) {
-  const src = buildFigmaEmbedUrl(
-    typeof props.src == "string" ? { url: props.src } : props.src
-  );
+  const src = embed(props.src);
 
   return <Iframe src={src} />;
 }
+
 const Iframe = styled.iframe<{
   width?: string;
   height?: string;

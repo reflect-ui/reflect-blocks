@@ -57,10 +57,10 @@
     "@babel/helper-validator-identifier" "^7.14.5"
     to-fast-properties "^2.0.0"
 
-"@design-sdk/figma-url@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@design-sdk/figma-url/-/figma-url-0.0.1.tgz#5044caea9ceded35b2640ec78133e4c67d2359a8"
-  integrity sha512-/5h2PmYOkFPwJveWp8wjaCeNr4hP32RYWKGnrQ1KgLpsru0HFltzpeKJJgDgi0OSJ7A6qXWoa0Nvte1+od7F9w==
+"@design-sdk/figma-url@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@design-sdk/figma-url/-/figma-url-0.0.2.tgz#6cdac717440def04f419efea080f95dae23e9d6f"
+  integrity sha512-BHxiY5OlX8OQNr/81NGo6pI8bm4c9M6s5vV+IJlQf9NFMKIoxv8fUZl0cuDvmQBloOC0HdVL09fPgIi0etVEvQ==
 
 "@emotion/babel-plugin@^11.3.0":
   version "11.3.0"
