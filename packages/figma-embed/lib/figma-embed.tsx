@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 import { embed, FigmaEmbedInput } from "@design-sdk/figma-url";
 
 interface FigmaEmbedProps {
-  src: string | FigmaEmbedInput;
+  src: FigmaEmbedInput;
   width?: string;
   height?: string;
 }
@@ -11,7 +11,7 @@ interface FigmaEmbedProps {
 export function FigmaEmbed(props: FigmaEmbedProps) {
   const src = embed(props.src);
 
-  return <Iframe src={src} />;
+  return <Iframe width={props.width} height={props.height} src={src} />;
 }
 
 const Iframe = styled.iframe<{
