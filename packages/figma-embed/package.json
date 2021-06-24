@@ -10,9 +10,21 @@
     },
     "peerDependencies": {
         "@emotion/styled": "^11.3.0",
+        "@emotion/react": "^11.4.0",
         "react": "^17.0.2"
     },
     "devDependencies": {
         "@types/react": "^17.0.11"
+    },
+    "files": [
+        "README.md",
+        "LICENSE",
+        "dist/index.js",
+        "dist/index.d.ts",
+        "dist/**/*.d.ts",
+        "dist/**/*.js"
+    ],
+    "publishConfig": {
+        "access": "public"
     }
 }

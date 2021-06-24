@@ -1,2 +1,2 @@
-export const PACKAGENAME = "<package-name>";
+export { default as default } from "./lib";
 export * from "./lib";

@@ -5,6 +5,8 @@
         "packages/[!__template__]*"
     ],
     "devDependencies": {
+        "@emotion/react": "^11.4.0",
+        "@emotion/styled": "^11.3.0",
         "typescript": "^4.3.4"
     }
 }

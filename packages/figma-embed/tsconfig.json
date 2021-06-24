@@ -7,8 +7,10 @@
     "esModuleInterop": true,
     "declaration": true,
     "sourceMap": true,
+    "outDir": "dist",
     "experimentalDecorators": true,
     "noUnusedLocals": false,
     "typeRoots": ["./node_modules/@types", "../../node_modules/@types"]
-  }
+  },
+  "exclude": ["dist"]
 }
