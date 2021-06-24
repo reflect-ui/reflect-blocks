@@ -10,7 +10,6 @@
         "@emotion/styled": "^11.3.0"
     },
     "devDependencies": {
-        "typescript": "^4.3.4",
         "@types/react": "^17.0.11"
     }
 }

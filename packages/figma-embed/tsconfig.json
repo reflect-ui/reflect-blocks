@@ -1,7 +1,14 @@
 {
-  "extends": "../tsconfig.json",
   "compilerOptions": {
-    "outDir": "dist"
-  },
-  "exclude": ["__test__", "node_modules", "dist"]
+    "lib": ["DOM", "DOM.Iterable", "ES2019"],
+    "target": "ES6",
+    "module": "commonjs",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "declaration": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": false,
+    "typeRoots": ["./node_modules/@types", "../../node_modules/@types"]
+  }
 }

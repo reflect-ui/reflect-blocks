@@ -1,0 +1,10 @@
+{
+    "name": "reflect-blocks",
+    "private": true,
+    "workspaces": [
+        "packages/[!__template__]*"
+    ],
+    "devDependencies": {
+        "typescript": "^4.3.4"
+    }
+}

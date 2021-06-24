@@ -2,6 +2,13 @@
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2019"],
     "target": "ES6",
-    "jsx": "react"
+    "module": "commonjs",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "declaration": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": false,
+    "typeRoots": ["./node_modules/@types", "../../node_modules/@types"]
   }
 }
