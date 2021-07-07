@@ -1,6 +1,6 @@
-# blocks
+# reflect-blocks
 
-List of ui blocks used by grida powered by boring
+List of ui blocks used by grida powered by reflect-ui
 
 ## Installation
 
