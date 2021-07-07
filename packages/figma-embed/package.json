@@ -1,13 +1,13 @@
 {
     "name": "@reflect-blocks/figma-embed",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "main": "dist/index.js",
     "description": "figma-embed, part of reflect-ui ecosystem",
     "scripts": {
         "prepack": "tsc"
     },
     "dependencies": {
-        "@design-sdk/figma-url": "^0.0.2"
+        "@design-sdk/figma-url": "^0.0.4"
     },
     "peerDependencies": {
         "@emotion/react": "^11.4.0",
